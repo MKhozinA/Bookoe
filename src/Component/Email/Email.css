@@ -1,0 +1,53 @@
+.outer-boxemail {
+  width: 1100px;
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  background-color: #8170F2;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.inner-box1email {
+  color: white;
+  padding: 20px;
+  width: 790px;
+  height: 125px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+
+.inner-box2email {
+
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+
+}
+
+input[type="email"] {
+  width: 345px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.submit-btnemail {
+  width: 100px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #8170F2;
+  color: #8170F2;
+  background-color: #F1F0FE;
+}

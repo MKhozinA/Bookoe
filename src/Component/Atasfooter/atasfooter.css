@@ -1,0 +1,37 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  .upfooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    margin-top: 50px;
+  }
+  
+  .logo img {
+    width: 225px;
+    /* Sesuaikan ukuran logo */
+    height: 72px;
+  }
+  
+  .logo h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .rightupfooter {
+    width: 525px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }

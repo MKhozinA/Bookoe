@@ -1,0 +1,80 @@
+.boxnf {
+    width: 1100px;
+    height: 450px;
+    margin: auto;
+    border-radius: 15px;
+    border: 1px solid #8170F2;
+    padding: 40px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.boxnotfound {
+    align-items: center;
+    align-self: center;
+    margin: 0 auto;
+}
+
+.pnotfound {
+    color: #8170F2;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.errpages {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+.bukubuku {
+    width: 574px;
+    height: 220.809px;
+    
+}
+
+.boxerr {
+    width: 468px;
+    height: 316.303px;
+    margin: 0 auto;
+}
+
+.empatratusempat {
+    color: #8170F2;
+    font-family: Poppins;
+    font-size: 147.178px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.tersesat {
+    color: var(--Text, #0D0842);
+    font-family: Montserrat;
+    font-size: 23.239px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gaada {
+    color: rgba(13, 8, 66, 0.60);
+    font-family: Poppins;
+    font-size: 15.492px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.backhome {
+    width: 120.712px;
+    height: 32.276px;
+    flex-shrink: 0;
+    border-radius: 5.164px;
+    border: 0.646px solid #8170F2;
+    background-color: white;
+    color: #8170F2;
+}

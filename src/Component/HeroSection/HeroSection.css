@@ -1,0 +1,190 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  width: 1100px;
+  height: 500px;
+  margin: auto;
+  border: 1px solid #ccc;
+  background-color: #F1F0FE;
+  border-radius: 15px;
+  padding: 40px;
+  display: flex;
+  margin-top: 30px;
+}
+
+.box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.box:nth-child(1) .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+  color: black;
+}
+
+
+.must-read,
+.book-title,
+.author-info,
+.rating,
+.lorem {
+  text-align: left;
+  margin: 0;
+}
+
+.must-read {
+  color: #8170F2;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+.book-title {
+  color: #1D1D1D;
+  font-family: Poppins;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 72px;
+  margin: 8px 0;
+}
+
+.author-info p:first-child {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.buttons {
+  margin-top: 16px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.read-book-btn {
+  width: 150px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #8170F2;
+  color: white;
+  border-color: #8170F2;
+  margin-right: 10px;
+}
+
+.see-all-btn {
+  width: 200px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 2px solid #8170F2;
+  color: #8170F2;
+  background-color: #F1F0FE;
+  margin: 0;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #333;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.box:nth-child(2) {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.box:nth-child(2) .red {
+  position: absolute;
+  width: 280px;
+  height: 390px;
+
+  left: 40px;
+  z-index: 3;
+}
+
+.box:nth-child(2) .blue {
+  position: absolute;
+  width: 235px;
+  height: 325px;
+
+  z-index: 2;
+}
+
+.box:nth-child(2) .green {
+  position: absolute;
+  width: 195px;
+  height: 270px;
+
+  right: 100px;
+  z-index: 1;
+}
+
+.herolain {
+  width: 1100px;
+  height: 145px;
+  margin: auto;
+  border: 1px solid #ccc;
+  background-color: #F1F0FE;
+  border-radius: 15px;
+  padding: 40px;
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  border-radius: 15px;
+}
+
+.boxherolain {
+  align-items: flex-start;
+}
+.pherolain {
+  color: #1D1D1D;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.spanhero {
+  color: #8170F2;
+  font-family: Poppins;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

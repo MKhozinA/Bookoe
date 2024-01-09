@@ -1,0 +1,97 @@
+.wrappercontent {
+  width: 1100px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* Dua kolom */
+  grid-template-rows: repeat(2, 1fr);
+  /* Dua baris */
+  gap: 20px;
+  margin: 50px auto;
+}
+
+.boxcontent {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 532px;
+  /* Lebar total termasuk gap */
+  height: 346px;
+
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.leftcontent {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 277px;
+}
+
+.rightcontent {
+  margin-left: 15px;
+  /* background-color: royalblue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: black;
+}
+
+.judulbuku {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  
+}
+
+.author {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.circlerating {
+  width: 41px;
+  height: 41px;
+  background-color: #FDAF17;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.loremkonten {
+  color: #1D1D1D;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 35px 0;
+}
+
+.bacabuku {
+  width: 240px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 2px solid #8170F2;
+  color: #8170F2;
+  background-color: white;
+  margin-top: 10px;
+}

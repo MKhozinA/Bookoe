@@ -1,0 +1,53 @@
+/* Footer.css */
+
+.app-footer {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    border-top: 1px solid #ddd; /* Garis pembatas */
+    margin-top: 50px;
+    
+  }
+  
+  .container {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section p {
+    margin: 0;
+  }
+  
+  .right-section .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .right-section .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .right-section .social-icons li:last-child {
+    margin-right: 0;
+  }
+  
+  .right-section .social-icons li a {
+    color: #8170F2;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  /* Tambahan gaya jika menggunakan Font Awesome */
+  /* Anda perlu mengimpor library Font Awesome ke proyek Anda */
+  /* Contoh: import 'font-awesome/css/font-awesome.min.css'; */
+  
+  /* Mengatur ukuran ikon */
+  .fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin, .fa-youtube {
+    font-size: 24px;
+  }
+  
